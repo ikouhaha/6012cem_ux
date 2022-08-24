@@ -3165,6 +3165,16 @@ li {
     background-size: cover;
 }
 
+.inner-header.method {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    position: relative;
+    background: url(../img/resources/inner-header-method-bg.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
 .inner-header:before {
     content: '';
     position: absolute;
