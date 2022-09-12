@@ -1045,7 +1045,8 @@ li {
 }
 
 .full-sec p {
-    color: #9C9C9C;
+    color: black;
+    font-size: 12px;
     line-height: 26px;
 }
 
