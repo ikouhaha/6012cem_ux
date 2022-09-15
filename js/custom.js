@@ -395,7 +395,11 @@ function contactFormValidation() {
                         required: true
                     },
                     phone: {
-                        required: true
+                        required: true,
+                        number: true,
+                        minlength: 8,
+                        maxlength: 8
+
                     },
                     gender: {
                         required: true
