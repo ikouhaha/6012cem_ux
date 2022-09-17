@@ -2933,9 +2933,15 @@ li {
 
 /* 20 contact form validation styles */
 
-.contact-form label.error {
+.contact-form label.error:not(.agreement label.error) {
     display: none !important;
+    color: red;
 }
+
+.agreement label.error{
+    color: red;
+}
+
 
 .contact-form input.error,
 .contact-form textarea.error {

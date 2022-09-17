@@ -409,6 +409,9 @@ function contactFormValidation() {
                     },
                     subject: {
                         required: true
+                    },
+                    agree:{
+                        required: true
                     }
                 },
                 submitHandler: function(form) {
